@@ -1,0 +1,227 @@
+FacebookButton {
+    background-color: #3B5998;
+    background-color-highlighted: #3B5998;
+    border-color: #777777;
+    border-width: 0;
+    text-color: #FFFFFF;
+    font-size: 17;
+    corner-radius: 25;
+    font: Avenir-Medium;
+}
+
+TwitterButton {
+    background-color: #55ACEE;
+    background-color-highlighted: #55ACEE;
+    border-color: #777777;
+    border-width: 0;
+    text-color: #FFFFFF;
+    font-size: 17;
+    corner-radius: 25;
+    font: Avenir-Medium;
+}
+
+GreenButton {
+    background-color: #6B9592;
+    background-color-highlighted: #9B9B9B;
+    border-color: #6B9592;
+    border-width: 0;
+    text-color: #FFFFFF;
+    font-size: 18;
+    corner-radius: 22;
+    font: Avenir-Light;
+}
+
+CantButton {
+    background-color: clear;
+    background-color-highlighted: #9B9B9B;
+    border-color: #979797;
+    border-width: 1;
+    text-color: #000000;
+    font-size: 18;
+    corner-radius: 22;
+    font: Avenir-Light;
+}
+
+Input {
+    background-color: #F5F5F5;
+    border-color: #979797;
+    border-width: 1;
+    text-color: #9B9B9B;
+    font-size: 16;
+    corner-radius: 0;
+    font: Avenir-Book;
+}
+
+InputError {
+    background-color: #F5F5F5;
+    border-color: #D0021B;
+    border-width: 2;
+    text-color: #9B9B9B;
+    font-size: 16;
+    corner-radius: 0;
+    font: Avenir-Book;
+}
+
+BadgeLabel{
+    background-color: #D0021B;
+    background-color-highlighted: #D0021B;
+    border-color: #D0021B;
+    border-width: 0;
+    text-color: #FFFFFF;
+    font-size: 14;
+    corner-radius: 8;
+    font: Avenir-Book;
+}
+
+SignUpLabel {
+    background-color: clear;
+    border-color: #777777;
+    border-width: 0;
+    text-color: #4A4A4A;
+    font-size: 18;
+    corner-radius: 25;
+    font: Avenir-Book;
+}
+
+LoginLabel {
+    background-color: clear;
+    border-color: #777777;
+    border-width: 0;
+    text-color: #4A4A4A;
+    font-size: 16;
+    corner-radius: 25;
+    font: Avenir-Book;
+}
+
+InputLabel {
+    text-color: #000000;
+    font-size: 16;
+    font: Avenir-Book;
+    background-color: clear;
+}
+
+MenuLabel {
+    text-color: #000000;
+    font-size: 18;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+CampaignCellTitleLabel{
+    text-color: #FFFFFF;
+    font-size: 21;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+CampaignCellSubTitleLabel{
+    text-color: #FFFFFF;
+    font-size: 18;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+ProductCellTitleLabel{
+    text-color: #000000;
+    font-size: 18;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+ProductCellLowPriceLabel{
+    text-color: #FFFFFF;
+    font-size: 24;
+    font: Avenir-Book;
+    background-color: clear;
+}
+
+ProductCellHiPriceLabel{
+    text-color: #FFFFFF;
+    font-size: 21;
+    font: Avenir-Book;
+    background-color: clear;
+}
+
+ProductHeaderTitleLabel{
+    text-color: #FFFFFF;
+    font-size: 21;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+ProductHeaderSubTitleLabel{
+    text-color: #FFFFFF;
+    font-size: 18;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+ProductHeaderDescriptionLabel{
+    text-color: #FFFFFF;
+    font-size: 14;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+ProductHeaderReviewLabel{
+    text-color: #FFFFFF;
+    font-size: 12;
+    font: Avenir-BookOblique;
+    background-color: clear;
+}
+
+ProductHeaderAuthorLabel{
+    text-color: #FFFFFF;
+    font-size: 12;
+    font: Avenir-Medium;
+    background-color: clear;
+}
+
+ProductTitleLabel{
+    text-color: #6B9592;
+    font-size: 21;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+ProductDescriptionLabel{
+    text-color: #000000;
+    font-size: 14;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+ProductLowPriceLabel{
+    text-color: #000000;
+    font-size: 24;
+    font: Avenir-Book;
+    background-color: clear;
+}
+
+ProductHiPriceLabel{
+    text-color: #000000;
+    font-size: 21;
+    font: Avenir-Book;
+    background-color: clear;
+}
+
+ProductH2Label{
+    text-color: #6B9592;
+    font-size: 18;
+    font: Avenir-Light;
+    background-color: clear;
+}
+
+ProductH3Label{
+    text-color: #000000;
+    font-size: 16;
+    font: Avenir-Medium;
+    background-color: clear;
+}
+
+ProductPLabel{
+    text-color: #000000;
+    font-size: 16;
+    font: Avenir-Light;
+    background-color: clear;
+}

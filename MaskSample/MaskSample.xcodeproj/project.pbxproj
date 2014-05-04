@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B885EB51916AB690067F969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885EB41916AB690067F969 /* Foundation.framework */; };
+		4B885EB71916AB690067F969 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885EB61916AB690067F969 /* CoreGraphics.framework */; };
+		4B885EB91916AB690067F969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885EB81916AB690067F969 /* UIKit.framework */; };
+		4B885EBF1916AB690067F969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B885EBD1916AB690067F969 /* InfoPlist.strings */; };
+		4B885EC11916AB690067F969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EC01916AB690067F969 /* main.m */; };
+		4B885EC51916AB690067F969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EC41916AB690067F969 /* AppDelegate.m */; };
+		4B885EC81916AB690067F969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B885EC61916AB690067F969 /* Main.storyboard */; };
+		4B885ECB1916AB690067F969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885ECA1916AB690067F969 /* ViewController.m */; };
+		4B885ECD1916AB690067F969 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B885ECC1916AB690067F969 /* Images.xcassets */; };
+		4B885ED41916AB690067F969 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885ED31916AB690067F969 /* XCTest.framework */; };
+		4B885ED51916AB690067F969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885EB41916AB690067F969 /* Foundation.framework */; };
+		4B885ED61916AB690067F969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B885EB81916AB690067F969 /* UIKit.framework */; };
+		4B885EDE1916AB690067F969 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B885EDC1916AB690067F969 /* InfoPlist.strings */; };
+		4B885EE01916AB690067F969 /* MaskSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EDF1916AB690067F969 /* MaskSampleTests.m */; };
+		4B885EF71916ABF40067F969 /* Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EEB1916ABF40067F969 /* Mask.m */; };
+		4B885EF81916ABF40067F969 /* MaskTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EED1916ABF40067F969 /* MaskTextField.m */; };
+		4B885EF91916ABF40067F969 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4B885EEE1916ABF40067F969 /* style.css */; };
+		4B885EFA1916ABF40067F969 /* StyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EF01916ABF40067F969 /* StyleParser.m */; };
+		4B885EFB1916ABF40067F969 /* UIButton+Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EF21916ABF40067F969 /* UIButton+Styles.m */; };
+		4B885EFC1916ABF40067F969 /* UILabel+Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EF41916ABF40067F969 /* UILabel+Styles.m */; };
+		4B885EFD1916ABF40067F969 /* UITextField+Styles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EF61916ABF40067F969 /* UITextField+Styles.m */; };
+		4B885F001916AC850067F969 /* UIColor+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B885EFF1916AC850067F969 /* UIColor+Extended.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B885ED71916AB690067F969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B885EA91916AB690067F969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B885EB01916AB690067F969;
+			remoteInfo = MaskSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B885EB11916AB690067F969 /* MaskSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B885EB41916AB690067F969 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B885EB61916AB690067F969 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B885EB81916AB690067F969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B885EBC1916AB690067F969 /* MaskSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaskSample-Info.plist"; sourceTree = "<group>"; };
+		4B885EBE1916AB690067F969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B885EC01916AB690067F969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B885EC21916AB690067F969 /* MaskSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaskSample-Prefix.pch"; sourceTree = "<group>"; };
+		4B885EC31916AB690067F969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B885EC41916AB690067F969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B885EC71916AB690067F969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B885EC91916AB690067F969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B885ECA1916AB690067F969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B885ECC1916AB690067F969 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B885ED21916AB690067F969 /* MaskSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B885ED31916AB690067F969 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B885EDB1916AB690067F969 /* MaskSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaskSampleTests-Info.plist"; sourceTree = "<group>"; };
+		4B885EDD1916AB690067F969 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B885EDF1916AB690067F969 /* MaskSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskSampleTests.m; sourceTree = "<group>"; };
+		4B885EEA1916ABF40067F969 /* Mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mask.h; sourceTree = "<group>"; };
+		4B885EEB1916ABF40067F969 /* Mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mask.m; sourceTree = "<group>"; };
+		4B885EEC1916ABF40067F969 /* MaskTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskTextField.h; sourceTree = "<group>"; };
+		4B885EED1916ABF40067F969 /* MaskTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskTextField.m; sourceTree = "<group>"; };
+		4B885EEE1916ABF40067F969 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = ../../Mask/style.css; sourceTree = "<group>"; };
+		4B885EEF1916ABF40067F969 /* StyleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleParser.h; sourceTree = "<group>"; };
+		4B885EF01916ABF40067F969 /* StyleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleParser.m; sourceTree = "<group>"; };
+		4B885EF11916ABF40067F969 /* UIButton+Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Styles.h"; sourceTree = "<group>"; };
+		4B885EF21916ABF40067F969 /* UIButton+Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Styles.m"; sourceTree = "<group>"; };
+		4B885EF31916ABF40067F969 /* UILabel+Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Styles.h"; sourceTree = "<group>"; };
+		4B885EF41916ABF40067F969 /* UILabel+Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Styles.m"; sourceTree = "<group>"; };
+		4B885EF51916ABF40067F969 /* UITextField+Styles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Styles.h"; sourceTree = "<group>"; };
+		4B885EF61916ABF40067F969 /* UITextField+Styles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Styles.m"; sourceTree = "<group>"; };
+		4B885EFE1916AC850067F969 /* UIColor+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extended.h"; sourceTree = "<group>"; };
+		4B885EFF1916AC850067F969 /* UIColor+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extended.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B885EAE1916AB690067F969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885EB71916AB690067F969 /* CoreGraphics.framework in Frameworks */,
+				4B885EB91916AB690067F969 /* UIKit.framework in Frameworks */,
+				4B885EB51916AB690067F969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B885ECF1916AB690067F969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885ED41916AB690067F969 /* XCTest.framework in Frameworks */,
+				4B885ED61916AB690067F969 /* UIKit.framework in Frameworks */,
+				4B885ED51916AB690067F969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B885EA81916AB690067F969 = {
+			isa = PBXGroup;
+			children = (
+				4B885EE91916ABF40067F969 /* Mask */,
+				4B885EBA1916AB690067F969 /* MaskSample */,
+				4B885ED91916AB690067F969 /* MaskSampleTests */,
+				4B885EB31916AB690067F969 /* Frameworks */,
+				4B885EB21916AB690067F969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B885EB21916AB690067F969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B885EB11916AB690067F969 /* MaskSample.app */,
+				4B885ED21916AB690067F969 /* MaskSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B885EB31916AB690067F969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B885EB41916AB690067F969 /* Foundation.framework */,
+				4B885EB61916AB690067F969 /* CoreGraphics.framework */,
+				4B885EB81916AB690067F969 /* UIKit.framework */,
+				4B885ED31916AB690067F969 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B885EBA1916AB690067F969 /* MaskSample */ = {
+			isa = PBXGroup;
+			children = (
+				4B885EEE1916ABF40067F969 /* style.css */,
+				4B885EC31916AB690067F969 /* AppDelegate.h */,
+				4B885EC41916AB690067F969 /* AppDelegate.m */,
+				4B885EC61916AB690067F969 /* Main.storyboard */,
+				4B885EC91916AB690067F969 /* ViewController.h */,
+				4B885ECA1916AB690067F969 /* ViewController.m */,
+				4B885ECC1916AB690067F969 /* Images.xcassets */,
+				4B885EBB1916AB690067F969 /* Supporting Files */,
+			);
+			path = MaskSample;
+			sourceTree = "<group>";
+		};
+		4B885EBB1916AB690067F969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B885EBC1916AB690067F969 /* MaskSample-Info.plist */,
+				4B885EBD1916AB690067F969 /* InfoPlist.strings */,
+				4B885EC01916AB690067F969 /* main.m */,
+				4B885EC21916AB690067F969 /* MaskSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B885ED91916AB690067F969 /* MaskSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B885EDF1916AB690067F969 /* MaskSampleTests.m */,
+				4B885EDA1916AB690067F969 /* Supporting Files */,
+			);
+			path = MaskSampleTests;
+			sourceTree = "<group>";
+		};
+		4B885EDA1916AB690067F969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B885EDB1916AB690067F969 /* MaskSampleTests-Info.plist */,
+				4B885EDC1916AB690067F969 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B885EE91916ABF40067F969 /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				4B885EFE1916AC850067F969 /* UIColor+Extended.h */,
+				4B885EFF1916AC850067F969 /* UIColor+Extended.m */,
+				4B885EEA1916ABF40067F969 /* Mask.h */,
+				4B885EEB1916ABF40067F969 /* Mask.m */,
+				4B885EEC1916ABF40067F969 /* MaskTextField.h */,
+				4B885EED1916ABF40067F969 /* MaskTextField.m */,
+				4B885EEF1916ABF40067F969 /* StyleParser.h */,
+				4B885EF01916ABF40067F969 /* StyleParser.m */,
+				4B885EF11916ABF40067F969 /* UIButton+Styles.h */,
+				4B885EF21916ABF40067F969 /* UIButton+Styles.m */,
+				4B885EF31916ABF40067F969 /* UILabel+Styles.h */,
+				4B885EF41916ABF40067F969 /* UILabel+Styles.m */,
+				4B885EF51916ABF40067F969 /* UITextField+Styles.h */,
+				4B885EF61916ABF40067F969 /* UITextField+Styles.m */,
+			);
+			name = Mask;
+			path = ../Mask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B885EB01916AB690067F969 /* MaskSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B885EE31916AB690067F969 /* Build configuration list for PBXNativeTarget "MaskSample" */;
+			buildPhases = (
+				4B885EAD1916AB690067F969 /* Sources */,
+				4B885EAE1916AB690067F969 /* Frameworks */,
+				4B885EAF1916AB690067F969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskSample;
+			productName = MaskSample;
+			productReference = 4B885EB11916AB690067F969 /* MaskSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B885ED11916AB690067F969 /* MaskSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B885EE61916AB690067F969 /* Build configuration list for PBXNativeTarget "MaskSampleTests" */;
+			buildPhases = (
+				4B885ECE1916AB690067F969 /* Sources */,
+				4B885ECF1916AB690067F969 /* Frameworks */,
+				4B885ED01916AB690067F969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B885ED81916AB690067F969 /* PBXTargetDependency */,
+			);
+			name = MaskSampleTests;
+			productName = MaskSampleTests;
+			productReference = 4B885ED21916AB690067F969 /* MaskSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B885EA91916AB690067F969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lateral View";
+				TargetAttributes = {
+					4B885ED11916AB690067F969 = {
+						TestTargetID = 4B885EB01916AB690067F969;
+					};
+				};
+			};
+			buildConfigurationList = 4B885EAC1916AB690067F969 /* Build configuration list for PBXProject "MaskSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B885EA81916AB690067F969;
+			productRefGroup = 4B885EB21916AB690067F969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B885EB01916AB690067F969 /* MaskSample */,
+				4B885ED11916AB690067F969 /* MaskSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B885EAF1916AB690067F969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885ECD1916AB690067F969 /* Images.xcassets in Resources */,
+				4B885EF91916ABF40067F969 /* style.css in Resources */,
+				4B885EBF1916AB690067F969 /* InfoPlist.strings in Resources */,
+				4B885EC81916AB690067F969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B885ED01916AB690067F969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885EDE1916AB690067F969 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B885EAD1916AB690067F969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885EFC1916ABF40067F969 /* UILabel+Styles.m in Sources */,
+				4B885EF81916ABF40067F969 /* MaskTextField.m in Sources */,
+				4B885ECB1916AB690067F969 /* ViewController.m in Sources */,
+				4B885EF71916ABF40067F969 /* Mask.m in Sources */,
+				4B885F001916AC850067F969 /* UIColor+Extended.m in Sources */,
+				4B885EFD1916ABF40067F969 /* UITextField+Styles.m in Sources */,
+				4B885EC51916AB690067F969 /* AppDelegate.m in Sources */,
+				4B885EFA1916ABF40067F969 /* StyleParser.m in Sources */,
+				4B885EC11916AB690067F969 /* main.m in Sources */,
+				4B885EFB1916ABF40067F969 /* UIButton+Styles.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B885ECE1916AB690067F969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B885EE01916AB690067F969 /* MaskSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B885ED81916AB690067F969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B885EB01916AB690067F969 /* MaskSample */;
+			targetProxy = 4B885ED71916AB690067F969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B885EBD1916AB690067F969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B885EBE1916AB690067F969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B885EC61916AB690067F969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B885EC71916AB690067F969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B885EDC1916AB690067F969 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B885EDD1916AB690067F969 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B885EE11916AB690067F969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B885EE21916AB690067F969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B885EE41916AB690067F969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskSample/MaskSample-Prefix.pch";
+				INFOPLIST_FILE = "MaskSample/MaskSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B885EE51916AB690067F969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskSample/MaskSample-Prefix.pch";
+				INFOPLIST_FILE = "MaskSample/MaskSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4B885EE71916AB690067F969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskSample.app/MaskSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskSample/MaskSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MaskSampleTests/MaskSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4B885EE81916AB690067F969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MaskSample.app/MaskSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MaskSample/MaskSample-Prefix.pch";
+				INFOPLIST_FILE = "MaskSampleTests/MaskSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B885EAC1916AB690067F969 /* Build configuration list for PBXProject "MaskSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B885EE11916AB690067F969 /* Debug */,
+				4B885EE21916AB690067F969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B885EE31916AB690067F969 /* Build configuration list for PBXNativeTarget "MaskSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B885EE41916AB690067F969 /* Debug */,
+				4B885EE51916AB690067F969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B885EE61916AB690067F969 /* Build configuration list for PBXNativeTarget "MaskSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B885EE71916AB690067F969 /* Debug */,
+				4B885EE81916AB690067F969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B885EA91916AB690067F969 /* Project object */;
+}
